@@ -1,0 +1,32 @@
+/* SASS colors */
+$sass-orange: hsl(27.1, 100%, 46.9%);
+$sass-black: hsl(0, 0%, 0%);
+$sass-white: hsl(0, 0%, 100%);
+$sass-grey: hsl(0, 0%, 50%);
+$sass-light-grey: hsl(0, 0%, 75%);
+$sass-dark-grey: hsl(0, 0%, 25%);
+
+$sass-bus-green: #8BC34A;
+
+/* Responsive breakpoints */
+$tiny: (max-width: 600px);
+$small: (min-width: 600px);
+$medium: (min-width: 800px);
+$large: (min-width: 1000px);
+$huge: (min-width: 1200px);
+$breakpoints: (
+  'tiny': $tiny,
+  'small': $small,
+  'medium': $medium,
+  'large': $large,
+  'huge': $huge,
+
+  'phone': $tiny,
+  'phablet': $small,
+  'tablet': $medium,
+  'desktop': $large,
+  'ultra': $huge,
+);
+
+/* Non-breaking space code */
+$nbsp: '\00a0';

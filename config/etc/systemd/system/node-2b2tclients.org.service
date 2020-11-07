@@ -1,0 +1,29 @@
+[Unit]
+Description=Run 2b2tclients.org website as Node.js daemon
+After=network.target auditd.service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/nodejs/2b2tclients.org/
+ExecStart=/usr/local/bin/npm start
+
+# Local system user for running Node.js
+User=nodejs
+Group=nodejs
+
+# Environment variables
+Environment=NODE_ENV=production
+
+# Allow many incoming connections
+LimitNOFILE=infinity
+
+# Allow core dumps for debugging
+LimitCORE=infinity
+
+StandardInput=null
+StandardOutput=syslog
+StandardError=syslog
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
