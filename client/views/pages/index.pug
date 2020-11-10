@@ -1,14 +1,17 @@
 extends ../_main
 block content
-	center: .primary: .row
-		.col-6.client-panel: center
-			h2 Free clients
-			each client in data.free
-				+clientSection(client)
-		.col-6.client-panel: center
-			h2 Paid clients
-			each client in data.paid
-				+clientSection(client)
+	center: .primary
+		h1 <i class="fal fa-construction"></i> Site under construction!
+		p Please check back soon for more information :D
+		.row
+			.col-6.client-panel: center
+				h2 Free clients
+				each client in data.free
+					+clientSection(client)
+			.col-6.client-panel: center
+				h2 Paid clients
+				each client in data.paid
+					+clientSection(client)
 	center: h6 Client descriptions taken from #[a(href='https://2b2t.miraheze.org/wiki/Cheat_Clients'): strong 2b2t Wiki]
 block append scripts
 	//- Links to any extra external or inline scripts/stylesheets.
