@@ -1,5 +1,7 @@
 body, #primary-row {
-  padding-top: 32px;
+  @include device('desktop') {
+    padding-top: 32px;
+  }
   //cursor: url(/images/cursor.png),auto;
   background-color: #424242;
   @include device('desktop') {
@@ -9,4 +11,8 @@ body, #primary-row {
 
 .desktop, .mobile {
   @include mdswitch(block);
+}
+
+.primary {
+  max-width: 1600px;
 }
