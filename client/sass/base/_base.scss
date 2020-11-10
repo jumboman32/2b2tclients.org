@@ -1,4 +1,5 @@
 body, #primary-row {
+  padding-top: 32px;
   //cursor: url(/images/cursor.png),auto;
   background-color: #424242;
   @include device('desktop') {
