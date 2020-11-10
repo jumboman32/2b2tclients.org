@@ -1,7 +1,7 @@
 {
   "name": "2b2tclients.org",
   "version": "1.0.0",
-  "description": "Public listing of up-to-date information on a number of Minecrack utility mods.",
+  "description": "Public listing of up-to-date information on a number of Minecraft utility mods.",
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
