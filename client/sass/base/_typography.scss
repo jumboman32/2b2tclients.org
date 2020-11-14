@@ -1,64 +1,8 @@
-/* google-webfonts-helper.herokuapp.com */
-/* sarabun-regular - latin */
-@font-face {
-  font-family: 'Sarabun';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sarabun Regular'), local('Sarabun-Regular'),
-       url('/fonts/sarabun-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/sarabun-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* sarabun-700 - latin */
-@font-face {
-  font-family: 'Sarabun';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Sarabun Bold'), local('Sarabun-Bold'),
-       url('/fonts/sarabun-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/sarabun-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* sansita-regular - latin */
-@font-face {
-  font-family: 'Sansita';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sansita Regular'), local('Sansita-Regular'),
-       url('/fonts/sansita-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/sansita-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* sansita-700 - latin */
-@font-face {
-  font-family: 'Sansita';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Sansita Bold'), local('Sansita-Bold'),
-       url('/fonts/sansita-v4-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/sansita-v4-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* work-sans-regular - latin */
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Work Sans'), local('WorkSans-Regular'),
-       url('/fonts/work-sans-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/work-sans-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* work-sans-700 - latin */
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Work Sans Bold'), local('WorkSans-Bold'),
-       url('/fonts/work-sans-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/work-sans-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
 
 body {
   color: #EEEEEE;
   //font-family: 'THSarabunNew', Verdana, Geneva, Tahoma, sans-serif;
-  font-family: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
