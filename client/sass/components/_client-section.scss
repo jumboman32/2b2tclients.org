@@ -14,13 +14,15 @@ p.description {
 	text-align: left;
 }
 
-table.client {
+table.client, table.proscons {
 	width: 100%;
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
+	table-layout: fixed;
 	.left {
 		text-align: right;
+		width: 25%;
 	}
 	.right {
 		text-align: left;
@@ -28,7 +30,15 @@ table.client {
 	.trow:nth-child(even) { background-color: #5E5E5E; }
 	.trow:nth-child(odd) { background-color: #4E4E4E; }
 	td {
-	  border-collapse: collapse;
-	  padding: 8px;
+		border-collapse: collapse;
+		padding: 8px;
 	}
+}
+
+.info {
+	color: #E0E0E0;
+}
+
+a.homepage {
+	font-size: 1.25rem;
 }

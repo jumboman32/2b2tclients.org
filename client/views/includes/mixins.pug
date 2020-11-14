@@ -6,14 +6,27 @@ mixin clientSection(client)
 		h3= client.name
 		table.client
 			tr.trow
-				td.left: strong Author:
-				td.right= client.author
+				td.left: strong Author
+				td.right.info= client.author
 			tr.trow
-				td.left: strong Price:
-				td.right= client.price
+				td.left: strong Price
+				td.right.info= client.price
 			tr.trow
-				td(colspan="2" style="text-align: center"): a(href=client.homepage target="_blank") Homepage
-		p.description= client.description
+				td.left: strong PVP Ready
+				td.right.info= client.pvp ? 'Yes' : 'No'
+			tr.trow
+				td(colspan="2" style="text-align: center"): a.homepage(href=client.homepage target="_blank") Homepage
+		p.description.info= client.description
+		table.proscons
+			tr.trow
+				td.right: strong Pros
+				td.right: strong Cons
+			tr.trow
+				td.right.info= client.pros ? client.pros[0] : 'Unknown'
+				td.right.info= client.cons ? client.cons[0] : 'Unknown'
+			tr.trow
+				td.right.info= client.pros ? client.pros[1] : 'Unknown'
+				td.right.info= client.cons ? client.cons[1] : 'Unknown'
 		br
 		
 	br
