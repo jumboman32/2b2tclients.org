@@ -69,7 +69,7 @@ paid:
     cons:
       - Not the best choice for Crystal PVP
       - Some cheats are "plus exclusive" (unlocked via referral codes)
-    pvp: false
+    pvp: true
   -
     name: Future
     author: 0x22 & Kalju
