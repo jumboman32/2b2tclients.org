@@ -1,4 +1,14 @@
 .header {
 	border: 2px solid grey;
-	border-radius: 25px;;
+	border-radius: 25px;
+
+	padding: 0 4rem;
+
+	* {
+		display: inline-block;
+	}
+
+	img {
+		height: 48px;
+	}
 }
