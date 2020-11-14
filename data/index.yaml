@@ -40,6 +40,7 @@ free:
     cons:
       - Somewhat outdated
       - Many cheats no longer work on 2b2t
+    pvp: true
   -
     name: ForgeHax
     author: fr1kin
@@ -53,6 +54,7 @@ free:
     cons:
       - Not easy to use
       - Nothing special other than Bookbot
+    pvp: false
 paid:
   -
     name: RusherHack
@@ -67,6 +69,7 @@ paid:
     cons:
       - Not the best choice for Crystal PVP
       - Some cheats are "plus exclusive" (unlocked via referral codes)
+    pvp: false
   -
     name: Future
     author: 0x22 & Kalju
@@ -80,6 +83,7 @@ paid:
     cons:
       - Extremely slow to update (over 8 months since version 2.9)
       - Due to lack of updates, has nothing that can't be found in other clients
+    pvp: false
   -
     name: Pyro
     author: GiantNuker & ionar
@@ -93,3 +97,4 @@ paid:
     cons:
       - Causes ridiculous lag spikes
       - Only worth using for AutoDupe and Crystal PVP
+    pvp: true
