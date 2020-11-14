@@ -84,7 +84,7 @@ paid:
     name: Pyro
     author: GiantNuker & ionar
     price: $20 USD
-    website: https://pyroclient.com/
+    homepage: https://pyroclient.com/
     description: |
       A $20 PvP client with some unique bypasses developed by GiantNuker and Ionar2 (former developer of Salhack). Used for duping items in late September and early October of 2020, as it has an autoduper module. It is accused of being a ratted client by some. The client was leaked in October of 2020 by Crystallinqq, and he added a backdoor.
     pros:
