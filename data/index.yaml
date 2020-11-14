@@ -6,6 +6,13 @@ free:
     homepage: https://impactclient.net/
     description: |
       One of the most common clients used on 2b2t. Great for new players due to ease of use. Includes built-in Baritone, an AI pathfinder bot that can automatically escape spawn. It was made well known during the Rusher War after Rusher's advertisement and through eventual use of many 2b2t YouTubers. Impact has many modules that are useful on 2b2t for explorers, travelers, and builders.
+    pros:
+      - Easy to use
+      - Built-in Baritone
+    cons:
+      - Nothing special that isn't found in other clients
+      - No decent movement cheats
+    pvp: false
   -
     name: Kami Blue
     author: 086, l1ving, iBuyMountainDew, Avanatiker
@@ -13,6 +20,13 @@ free:
     homepage: https://kamiblue.org/
     description: |
       An open-source fork of KAMI which was known for having a working elytra flight bypass for 2b2t (until elytras were practically disabled in early September 2020), along with features like Impact and proper Baritone integration. The client receives a new update every few days. There are currently 3 main developers and nearly 60 contributors to the project.
+    pros:
+      - Open-source with active developers
+      - Cheats work well on 2b2t
+    cons:
+      - GUI can be confusing for new users
+      - Not always compatible with other clients
+    pvp: true
   -
     name: Sal Hack
     author: ionar
@@ -20,6 +34,12 @@ free:
     homepage: https://salhack.com/
     description: |
       A client made by Ionar2 which went open source due to the unobfuscated jar being leaked. Currently has no developers and the Discord does not provide technical support for Salhack either. Contains no XRay or search functions but is useful for crystal combat.
+    pros:
+      - Large number of helpful utilities
+      - Highly customizable HUD
+    cons:
+      - Somewhat outdated
+      - Many cheats no longer work on 2b2t
   -
     name: ForgeHax
     author: fr1kin
@@ -27,6 +47,12 @@ free:
     homepage: https://github.com/fr1kin/ForgeHax
     description: |
       Runs as a Forge mod, open-source with a power user feel to it. It lacks a useful GUI and is configured with only commands. ForgeHax became popular thanks to its book writer for creating ban books/dupe books.
+    pros:
+      - Includes a Bookbot
+      - Good documentation on GitHub
+    cons:
+      - Not easy to use
+      - Nothing special other than Bookbot
 paid:
   -
     name: RusherHack
@@ -35,6 +61,12 @@ paid:
     homepage: https://rusherhack.org
     description: |
       Client made by John200410, who also is the main creator of Rusherb0t. Rusherhack currently costs $20, but in the past, there was a $60 premium version.
+    pros:
+      - Best BoatFly for 2b2t as of November 2020
+      - Frequently updated with useful cheats and HUD modules
+    cons:
+      - Not the best choice for Crystal PVP
+      - Some cheats are "plus exclusive" (unlocked via referral codes)
   -
     name: Future
     author: 0x22 & Kalju
@@ -42,6 +74,12 @@ paid:
     homepage: https://futureclient.net/
     description: |
       A paid client advertised by Fit and several other 2b2t YouTubers. Future costs $20 and is one of the few clients that costs money. Avoid any unofficial or "cracked" versions. Even though they can be downloaded for free, they are almost certainly backdoored and will leak your coordinates and maybe worse (IP and Passwords).
+    pros:
+      - Incredibly stable client
+      - Includes Noteblock bot (plays music with noteblocks)
+    cons:
+      - Extremely slow to update (over 8 months since version 2.9)
+      - Due to lack of updates, has nothing that can't be found in other clients
   -
     name: Pyro
     author: GiantNuker & ionar
@@ -49,3 +87,9 @@ paid:
     website: https://pyroclient.com/
     description: |
       A $20 PvP client with some unique bypasses developed by GiantNuker and Ionar2 (former developer of Salhack). Used for duping items in late September and early October of 2020, as it has an autoduper module. It is accused of being a ratted client by some. The client was leaked in October of 2020 by Crystallinqq, and he added a backdoor.
+    pros:
+      - Powerful Crystal PVP
+      - Includes AutoDupe and BoatFly (neither are very good, but they work)
+    cons:
+      - Causes ridiculous lag spikes
+      - Only worth using for AutoDupe and Crystal PVP
