@@ -59,7 +59,7 @@ free:
     name: Xulu
     author: Elementars/ZiTROX
     price: Free
-    homepage: N/A
+    homepage: null
     description: |
       Private client developed by Elementars, used by Emperium pvpers. It was leaked in the past and Elementars released the older versions here. The original client was used in 2017 after being passed around by users on YouTube. The original client's developer is ZiTROX with help from NuddlesTheMemer, ecelon & StormPvP.
     pros:
