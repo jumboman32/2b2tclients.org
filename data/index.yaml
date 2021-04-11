@@ -38,8 +38,8 @@ free:
       - Large number of helpful utilities
       - Highly customizable HUD
     cons:
-      - Somewhat outdated
-      - Many cheats no longer work on 2b2t
+      - Outdated
+      - Not compatible with many mods
     pvp: true
   -
     name: ForgeHax
@@ -52,7 +52,7 @@ free:
       - Includes a Bookbot
       - Good documentation on GitHub
     cons:
-      - Not easy to use
+      - Not easy to use for beginners
       - Nothing special other than Bookbot
     pvp: false
 paid:
@@ -64,8 +64,8 @@ paid:
     description: |
       Client made by John200410, who also is the main creator of Rusherb0t. Rusherhack currently costs $20, but in the past, there was a $60 premium version.
     pros:
-      - Best BoatFly for 2b2t as of November 2020
       - Frequently updated with useful cheats and HUD modules
+      - Includes lots of bypasses for 2b2t
     cons:
       - Not the best choice for Crystal PVP
       - Some cheats are "plus exclusive" (unlocked via referral codes)
@@ -80,10 +80,11 @@ paid:
     pros:
       - Incredibly stable client
       - Includes Noteblock bot (plays music with noteblocks)
+      - Very accurate and quick AutoCrystal
     cons:
       - Extremely slow to update (over 8 months since version 2.9)
       - Due to lack of updates, has nothing that can't be found in other clients
-    pvp: false
+    pvp: true
   -
     name: Pyro
     author: GiantNuker & ionar
