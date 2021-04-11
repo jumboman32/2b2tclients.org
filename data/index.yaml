@@ -84,7 +84,7 @@ paid:
     cons:
       - Extremely slow to update (over 8 months since version 2.9)
       - Due to lack of updates, has nothing that can't be found in other clients
-    pvp: True
+    pvp: true
   -
     name: Pyro
     author: GiantNuker & ionar
