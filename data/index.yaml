@@ -55,6 +55,20 @@ free:
       - Not easy to use for beginners
       - Nothing special other than Bookbot
     pvp: false
+  -
+    name: Xulu
+    author: Elementars/ZiTROX
+    price: Free
+    homepage: null
+    description: |
+      Private client developed by Elementars, used by Emperium pvpers. It was leaked in the past and Elementars released the older versions here. The original client was used in 2017 after being passed around by users on YouTube. The original client's developer is ZiTROX with help from NuddlesTheMemer, ecelon & StormPvP.
+    pros:
+      - Many unique modules
+      - Comparable to some paid clients
+    cons:
+      - Not maintained
+      - Slightly outdated
+    pvp: false
 paid:
   -
     name: RusherHack
@@ -94,8 +108,22 @@ paid:
       A $20 PvP client with some unique bypasses developed by GiantNuker and Ionar2 (former developer of Salhack). Used for duping items in late September and early October of 2020, as it has an autoduper module. It is accused of being a ratted client by some. The client was leaked in October of 2020 by Crystallinqq, and he added a backdoor.
     pros:
       - Powerful Crystal PVP
-      - Includes AutoDupe and BoatFly (neither are very good, but they work)
+      - Great HUD customization
     cons:
       - Causes ridiculous lag spikes
       - Only worth using for AutoDupe and Crystal PVP
+    pvp: true
+  -        
+    name: Konas
+    author: Darki
+    price: $15 USD
+    homepage: https://konasclient.com/
+    description: |
+      A paid client developed by GL_DONT_CARE, Darki, and Auto in 2020. The current price of Konas is $15. Konas has some bypasses for 2b2t as PacketFly and Strafe. Konas is mostly used for crystal combat because of its excellent CrystalAura.
+    pros:
+      - ElytraFly Bypass
+      - Up to date PVP modules
+    cons:
+      - Not compatible with some clients
+      - Lacking unique modules from free clients
     pvp: true
