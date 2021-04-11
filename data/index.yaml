@@ -28,7 +28,7 @@ free:
       - Not always compatible with other clients
     pvp: true
   -
-    name: Sal Hack
+    name: Salhack
     author: ionar
     price: Free
     homepage: https://salhack.com/
@@ -38,8 +38,8 @@ free:
       - Large number of helpful utilities
       - Highly customizable HUD
     cons:
-      - Somewhat outdated
-      - Many cheats no longer work on 2b2t
+      - Outdated
+      - Not compatible with many mods
     pvp: true
   -
     name: ForgeHax
@@ -52,8 +52,22 @@ free:
       - Includes a Bookbot
       - Good documentation on GitHub
     cons:
-      - Not easy to use
+      - Not easy to use for beginners
       - Nothing special other than Bookbot
+    pvp: false
+  -
+    name: Xulu
+    author: Elementars/ZiTROX
+    price: Free
+    homepage: null
+    description: |
+      Private client developed by Elementars, used by Emperium pvpers. It was leaked in the past and Elementars released the older versions here. The original client was used in 2017 after being passed around by users on YouTube. The original client's developer is ZiTROX with help from NuddlesTheMemer, ecelon & StormPvP.
+    pros:
+      - Many unique modules
+      - Comparable to some paid clients
+    cons:
+      - Not maintained
+      - Slightly outdated
     pvp: false
 paid:
   -
@@ -64,8 +78,8 @@ paid:
     description: |
       Client made by John200410, who also is the main creator of Rusherb0t. Rusherhack currently costs $20, but in the past, there was a $60 premium version.
     pros:
-      - Best BoatFly for 2b2t as of November 2020
       - Frequently updated with useful cheats and HUD modules
+      - Includes lots of bypasses for 2b2t
     cons:
       - Not the best choice for Crystal PVP
       - Some cheats are "plus exclusive" (unlocked via referral codes)
@@ -80,10 +94,11 @@ paid:
     pros:
       - Incredibly stable client
       - Includes Noteblock bot (plays music with noteblocks)
+      - Very accurate and quick AutoCrystal
     cons:
       - Extremely slow to update (over 8 months since version 2.9)
       - Due to lack of updates, has nothing that can't be found in other clients
-    pvp: false
+    pvp: true
   -
     name: Pyro
     author: GiantNuker & ionar
@@ -93,8 +108,22 @@ paid:
       A $20 PvP client with some unique bypasses developed by GiantNuker and Ionar2 (former developer of Salhack). Used for duping items in late September and early October of 2020, as it has an autoduper module. It is accused of being a ratted client by some. The client was leaked in October of 2020 by Crystallinqq, and he added a backdoor.
     pros:
       - Powerful Crystal PVP
-      - Includes AutoDupe and BoatFly (neither are very good, but they work)
+      - Great HUD customization
     cons:
       - Causes ridiculous lag spikes
       - Only worth using for AutoDupe and Crystal PVP
+    pvp: true
+  -        
+    name: Konas
+    author: Darki
+    price: $15 USD
+    homepage: https://konasclient.com/
+    description: |
+      A paid client developed by GL_DONT_CARE, Darki, and Auto in 2020. The current price of Konas is $15. Konas has some bypasses for 2b2t as PacketFly and Strafe. Konas is mostly used for crystal combat because of its excellent CrystalAura.
+    pros:
+      - ElytraFly Bypass
+      - Up to date PVP modules
+    cons:
+      - Not compatible with some clients
+      - Lacking unique modules from free clients
     pvp: true
