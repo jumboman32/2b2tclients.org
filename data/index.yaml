@@ -57,7 +57,7 @@ free:
     pvp: false
   -
     name: Xulu
-    author: Elementars/ZiTROX
+    author: Elementars, ZiTROX
     price: Free
     homepage: null
     description: |
@@ -68,13 +68,27 @@ free:
     cons:
       - Not maintained
       - Slightly outdated
-    pvp: false
+    pvp: true
+  -
+    name: Phobos
+    author: 3arthqu4ke, Crystallinqq, ohare, Megyn
+    price: Free
+    homepage: null
+    description: |
+      Private client that was leaked and is used for its advantages in Crystal PVP.
+    pros:
+      - Great AutoCrystal
+      - Many bypasses for multiple servers
+    cons:
+      - Private Client
+      - Untrustworthy developers
+    pvp: true
 paid:
   -
     name: RusherHack
     author: John200410
     price: $20 USD
-    homepage: https://rusherhack.org
+    homepage: https://rusherhack.org/
     description: |
       Client made by John200410, who also is the main creator of Rusherb0t. Rusherhack currently costs $20, but in the past, there was a $60 premium version.
     pros:
@@ -101,7 +115,7 @@ paid:
     pvp: true
   -
     name: Pyro
-    author: GiantNuker & ionar
+    author: GiantNuker & Ionar
     price: $20 USD
     homepage: https://pyroclient.com/
     description: |
