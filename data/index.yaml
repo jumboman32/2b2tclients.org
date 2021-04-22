@@ -56,34 +56,6 @@ free:
       - Nothing special other than Bookbot
     pvp: false
   -
-    name: Xulu
-    author: Elementars, ZiTROX
-    price: Free
-    homepage: null
-    description: |
-      Private client developed by Elementars, used by Emperium pvpers. It was leaked in the past and Elementars released the older versions here. The original client was used in 2017 after being passed around by users on YouTube. The original client's developer is ZiTROX with help from NuddlesTheMemer, ecelon & StormPvP.
-    pros:
-      - Many unique modules
-      - Comparable to some paid clients
-    cons:
-      - Not maintained
-      - Slightly outdated
-    pvp: true
-  -
-    name: Phobos
-    author: 3arthqu4ke, Crystallinqq, ohare, Megyn
-    price: Free
-    homepage: null
-    description: |
-      Private client that was leaked and is used for its advantages in Crystal PVP.
-    pros:
-      - Great AutoCrystal
-      - Many bypasses for multiple servers
-    cons:
-      - Private Client
-      - Very slow updates in forms of leaks
-    pvp: true
-   -
     name: Gamesense
     author: Cyber & Hoosiers
     price: Free
@@ -128,20 +100,6 @@ paid:
       - Due to lack of updates, has nothing that can't be found in other clients
     pvp: true
   -
-    name: Pyro
-    author: GiantNuker & Ionar
-    price: $20 USD
-    homepage: https://pyroclient.com/
-    description: |
-      A $20 PvP client with some unique bypasses developed by GiantNuker and Ionar2 (former developer of Salhack). Used for duping items in late September and early October of 2020, as it has an autoduper module. It is accused of being a ratted client by some. The client was leaked in October of 2020 by Crystallinqq, and he added a backdoor.
-    pros:
-      - Powerful Crystal PVP
-      - Great HUD customization
-    cons:
-      - Causes ridiculous lag spikes
-      - Only worth using for AutoDupe and Crystal PVP
-    pvp: true
-  -        
     name: Konas
     author: Darki, Auto, GL_DONT_CARE
     price: $15 USD
