@@ -21,7 +21,7 @@ free:
     description: |
       An open-source fork of KAMI which was known for having a working elytra flight bypass for 2b2t (until elytras were practically disabled in early September 2020), along with features like Impact and proper Baritone integration. The client receives a new update every few days. There are currently 3 main developers and nearly 60 contributors to the project.
     pros:
-      - Open-source with active developers
+      - Open-source
       - Modules work well on 2b2t
     cons:
       - Client not maintained
@@ -92,7 +92,7 @@ free:
        A Minecraft Forge "Utility Mod" for anarchy-related servers such as 2b2t. 
     pros:
       - Unique PVP modules
-      - Free and Open Source
+      - Open-source
     cons:
       - Lacks utility modules
       - Not the best to use standalone
@@ -143,7 +143,7 @@ paid:
     pvp: true
   -        
     name: Konas
-    author: Darki
+    author: Darki, Auto, GL_DONT_CARE
     price: $15 USD
     homepage: https://konasclient.com/
     description: |
