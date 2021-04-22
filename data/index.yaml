@@ -22,9 +22,9 @@ free:
       An open-source fork of KAMI which was known for having a working elytra flight bypass for 2b2t (until elytras were practically disabled in early September 2020), along with features like Impact and proper Baritone integration. The client receives a new update every few days. There are currently 3 main developers and nearly 60 contributors to the project.
     pros:
       - Open-source with active developers
-      - Cheats work well on 2b2t
+      - Modules work well on 2b2t
     cons:
-      - GUI can be confusing for new users
+      - Client not maintained
       - Not always compatible with other clients
     pvp: true
   -
@@ -81,7 +81,21 @@ free:
       - Many bypasses for multiple servers
     cons:
       - Private Client
-      - Untrustworthy developers
+      - Very slow updates in forms of leaks
+    pvp: true
+   -
+    name: Gamesense
+    author: Cyber & Hoosiers
+    price: Free
+    homepage: null
+    description: |
+       A Minecraft Forge "Utility Mod" for anarchy-related servers such as 2b2t. 
+    pros:
+      - Unique PVP modules
+      - Free and Open Source
+    cons:
+      - Lacks utility modules
+      - Not the best to use standalone
     pvp: true
 paid:
   -
